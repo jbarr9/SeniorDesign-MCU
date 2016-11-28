@@ -80,7 +80,7 @@ void sendWifi(void)
 }
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(0, OUTPUT);    // s0
   pinMode(1, OUTPUT);    // s1
   pinMode(2, OUTPUT);    // s2
