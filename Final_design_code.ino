@@ -332,7 +332,7 @@ void loop () {
         else if(cm > cm2 + 3)
           Serial.println("Leaning back, sit up straight");
 
-         
+         sendWifi();
          
       }//ends infinite loop
     }//closes "if" statement that is triggered by pressCount
