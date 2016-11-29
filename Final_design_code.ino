@@ -90,7 +90,7 @@ void sendWifi(void)
   Serial.write(68);
   for(control = 0; control < 42; control++)
   {
-   // Serial.write(data[control]);
+    Serial.write(data[control]);
   }
 }
 
